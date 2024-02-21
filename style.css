@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+    height: 110vh;
+    background-image: url("background img.jpg");
+    background-size: cover;
+    opacity: 2;
+}
+.box{
+    height: 110vh;
+    width: 100%;
+    opacity: 0.65;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 70px;
+    align-items: center;
+    border-bottom: 2px solid  white; 
+}
+.logo{
+    height: 50px;
+    width: 180px;
+    position: relative;
+    background-image: url("logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+.btn{
+   background-color: #fe6946;;
+   color: white;
+   border-radius: 8px;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer; 
+   font-size: 20px;
+   z-index: 1;
+}
+a:hover{
+    color: #fe6946;   
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #fe6946;
+}
+.content{
+    text-align: center;
+    position: relative;
+    top: 12rem;
+    font-size: 2rem;
+    color: white;
+    z-index: 1;
+}
+.btn-2{
+    height: 2.5rem;
+    width: 15rem;
+    background-color: #fe6946;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer; 
+    font-size: 20px;  
+    margin-top: 1rem;
+    cursor: pointer;
+    letter-spacing: 4px;
+}
+.btn-2:hover{
+    background-color: transparent;
+    border: 2px solid #fe6946;
+}
+.content p{
+    letter-spacing: 5px;
+}
